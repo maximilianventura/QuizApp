@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.koala.radio.MainActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<!-- Question 01  - Begin  -->
+<LinearLayout
+    style="@style/LinearLayoutPink">
+
+    <TextView
+        style="@style/TextViewPink"
+        android:text="Q1. During which century is the modern science of archaeology generally considered to have started?" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        style="@style/RadioGroup">
+
+        <RadioButton
+            style="@style/RadioButtonPink"
+            android:text="Seventeenth" />
+
+        <RadioButton
+            style="@style/RadioButtonPink"
+            android:text="Fifteenth" />
+
+        <RadioButton
+            android:id="@+id/Nineteenth"
+            style="@style/RadioButtonPink"
+            android:text="Nineteenth" />
+
+        <RadioButton
+            style="@style/RadioButtonPink"
+            android:text="Thirteenth" />
+    </RadioGroup>
+
+    <LinearLayout
+        style="@style/LinearLayoutWhite">
+
+    <ImageView
+        style="@style/ImageView"
+        app:srcCompat="@drawable/line"/>
+    </LinearLayout>
+<!-- Question 01  - End  -->
+
+
+
+<!-- Question 02  - Begin  -->
+</LinearLayout>
+    <LinearLayout
+        style="@style/LinearLayoutWhite">
+
+        <TextView
+            style="@style/TextViewWhite"
+            android:text='Q2. Herodotus of Halicarnassus is regarded in the West as the "Father of History" due to his work "The Histories". What was his nationality?' />
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            style="@style/RadioGroup">
+
+            <RadioButton
+                style="@style/RadioButtonWhite"
+                android:text="Persian" />
+
+            <RadioButton
+                android:id="@+id/Greek"
+                style="@style/RadioButtonWhite"
+                android:text="Greek"/>
+
+            <RadioButton
+                style="@style/RadioButtonWhite"
+                android:text="Roman" />
+
+            <RadioButton
+                style="@style/RadioButtonWhite"
+                android:text="Assyrian" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/LinearLayoutWhite">
+
+        <ImageView
+            style="@style/ImageView"
+            app:srcCompat="@drawable/line2"/>
+    </LinearLayout>
+<!-- Question 02  - End  -->
+
+<!-- Question 03  - Begin  -->
+    <LinearLayout
+        style="@style/LinearLayoutPink">
+
+        <TextView
+            style="@style/TextViewPink"
+            android:text="Q3. Dendrochronology is?" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup3"
+            style="@style/RadioGroup">
+
+            <RadioButton
+                style="@style/RadioButtonPink"
+                android:text="A method of experimental archaeology" />
+
+            <RadioButton
+                android:id="@+id/Tree"
+                style="@style/RadioButtonPink"
+                android:text="A dating method using tree rings"/>
+
+            <RadioButton
+                style="@style/RadioButtonPink"
+                android:text="A short prehistoric period after the Bronze Age" />
+
+            <RadioButton
+                style="@style/RadioButtonPink"
+                android:text="The name given to broken artefacts, such as pottery" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutWhite">
+
+        <ImageView
+            style="@style/ImageView"
+            app:srcCompat="@drawable/line" />
+    </LinearLayout>
+<!-- Question 03  - End  -->
+
+
+<!-- Question 04  - Begin  -->
+    <LinearLayout
+        style="@style/LinearLayoutWhite">
+
+        <TextView
+            android:id="@+id/Vessel"
+            style="@style/TextViewWhite"
+            android:text="Q4. What are the types of vessel used for the transport and conservation?" />
+
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Loutrophoros" />
+
+        <CheckBox
+            android:id="@+id/Kalpis"
+            style="@style/CheckBox"
+            android:text="Kalpis" />
+
+        <CheckBox
+            android:id="@+id/Pithos"
+            style="@style/CheckBox"
+            android:text="Pithos" />
+
+        <CheckBox
+            style="@style/CheckBox"
+            android:layout_marginBottom="20dp"
+            android:text="Nike"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutWhite">
+
+        <ImageView
+            style="@style/ImageView"
+            app:srcCompat="@drawable/line2"/>
+    </LinearLayout>
+ <!-- Question 04  - End  -->
+
+<!-- Question 05  - Begin  -->
+    <LinearLayout
+        style="@style/LinearLayoutPink">
+
+        <TextView
+            style="@style/TextViewPink"
+            android:text="Q5. What is the name of the ancient city discovered by Heinrich Schliemann?" />
+
+        <EditText
+            android:id="@+id/Troy"
+            style="@style/EditText" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/LinearLayoutWhite">
+
+        <ImageView
+            style="@style/ImageView"
+            app:srcCompat="@drawable/line" />
+    </LinearLayout>
+<!-- Question 05  - End  -->
+
+
+<!-- This LinearLayout override styles.xml  -->
+    <LinearLayout
+        style="@style/LinearLayoutWhite"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+            style="@style/TextView"
+            android:text="Score" />
+
+
+
+        <TextView
+            android:id="@+id/score"
+            style="@style/TextView"
+            android:text="0"/>
+
+        <Button
+        android:id="@+id/checkQuiz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="checkQuiz"
+        android:text="Check"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
