@@ -32,6 +32,5 @@ The questions in this quiz are not so simple, you can test your archaeological k
 
 --------------------------------------------------------------------------------
 
-**Screenshots:**
 ![](https://github.com/maximilianventura/QuizApp/blob/master/DigErgoSum01s.jpg)
 ![](https://github.com/maximilianventura/QuizApp/blob/master/DigErgoSum02s.jpg)
