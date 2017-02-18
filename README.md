@@ -24,16 +24,14 @@ This project is about combining various ideas and skills we’ve been practicing
 The questions in this quiz are not so simple, you can test your archaeological knowledge
 
 **Questions:**
-> 1. Which one of these logos falls under the Automotive sector? [ RadioButton ]
-2. Which one of these logos is the original Starbucks logo? [ RadioButton ]
-3. Check all the companies that offer a movie streaming service. [ CheckBox ]
-4. What is the name of this company? [ EditText ]
-5. Which one of these logos is no longer current? [ RadioButton ]
-6. What color is this logo supposed to be? [ EditText ]
-7. Name this company.  [ EditText ]
+> 1. During which century is the modern science of archaeology generally considered to have started? [ RadioButton ]
+2.Herodotus of Halicarnassus is regarded in the West as the "Father of History" due to his work "The Histories". What was his nationality? [ RadioButton ]
+3. Dendrochronology is? [ RadioButton ]
+4. What are the types of vessel used for the transport and conservation? [ CheckBox ]
+5. What is the name of the ancient city discovered by Heinrich Schliemann? [ EditText ]
 
 --------------------------------------------------------------------------------
 
 **Screenshots:**
-![](https://github.com/jvuonger/Udacity-Android-Lesson3-Quiz-App/raw/master/app/screenshot1.png)
-![](https://github.com/jvuonger/Udacity-Android-Lesson3-Quiz-App/raw/master/app/screenshot2.png)
+![](https://github.com/maximilianventura/QuizApp/blob/master/DigErgoSum01.jpg)
+![](https://github.com/maximilianventura/QuizApp/blob/master/DigErgoSum02.jpg)
