@@ -25,7 +25,7 @@ The questions in this quiz are not so simple, you can test your archaeological k
 
 **Questions:**
 > 1. During which century is the modern science of archaeology generally considered to have started? [ RadioButton ]
-2.Herodotus of Halicarnassus is regarded in the West as the "Father of History" due to his work "The Histories". What was his nationality? [ RadioButton ]
+2. Herodotus of Halicarnassus is regarded in the West as the "Father of History" due to his work "The Histories". What was his nationality? [ RadioButton ]
 3. Dendrochronology is? [ RadioButton ]
 4. What are the types of vessel used for the transport and conservation? [ CheckBox ]
 5. What is the name of the ancient city discovered by Heinrich Schliemann? [ EditText ]
