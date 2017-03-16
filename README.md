@@ -11,7 +11,7 @@ At this point, we believe that you’re now ready to create your own app. You wi
 **What will I learn?**
 This project is about combining various ideas and skills we’ve been practicing throughout the course. They include:
 
-> - Planning your app design before coding.
+ - Planning your app design before coding.
 - Taking an app layout from drawing to XML code.
 - Creating, positioning, and styling views.
 - Creating interactivity through button clicks and Java code.
